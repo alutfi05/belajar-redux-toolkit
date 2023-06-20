@@ -15,6 +15,7 @@ function App() {
     }, [cartItems]);
 
     useEffect(() => {
+        // dispatch(getCartItems('randomName'));
         dispatch(getCartItems());
     }, []);
 
